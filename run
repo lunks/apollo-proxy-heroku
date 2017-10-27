@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export ENGINE_CONFIG="{\"apiKey\":\"${APOLLO_ENGINE_API_KEY}\",\"logging\":{\"level\":\"${APOLLO_ENGINE_LOG_LEVEL}\"},\"origins\":[{\"http\":{\"url\":\"${GRAPHQL_API_URL}\"}}],\"frontends\":[{\"host\":\"0.0.0.0\",\"port\":${PORT},\"endpoint\":\"/graphql\"}]}"
+export ENGINE_CONFIG="{\"apiKey\":\"${APOLLO_ENGINE_API_KEY}\",\"logging\":{\"level\":\"${APOLLO_ENGINE_LOG_LEVEL:-DEBUG}\"},\"origins\":[{\"http\":{\"url\":\"${GRAPHQL_API_URL}\"}}],\"frontends\":[{\"host\":\"0.0.0.0\",\"port\":${PORT},\"endpoint\":\"/graphql\"}]}"
 
 echo $ENGINE_CONFIG
 
