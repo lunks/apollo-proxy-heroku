@@ -4,4 +4,4 @@ export ENGINE_CONFIG="{\"apiKey\":\"${APOLLO_ENGINE_API_KEY}\",\"logging\":{\"le
 
 echo $ENGINE_CONFIG
 
-./node_modules/apollo-engine-binary-linux/engineproxy_linux_amd64 -config=env -restart=true
+./node_modules/apollo-engine-binary-linux/engineproxy_linux_amd64 -config=env
