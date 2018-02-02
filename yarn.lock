@@ -2,6 +2,6 @@
 # yarn lockfile v1
 
 
-apollo-engine-binary-linux@^0.2017.11-137-g908dbec6f:
-  version "0.2017.11-137-g908dbec6f"
-  resolved "https://registry.yarnpkg.com/apollo-engine-binary-linux/-/apollo-engine-binary-linux-0.2017.11-137-g908dbec6f.tgz#2926abc144e9eef9874c9d05e9cdf77ff10e54c9"
+apollo-engine-binary-linux@^0.2018.1-54-gce490265c:
+  version "0.2018.1-54-gce490265c"
+  resolved "https://registry.yarnpkg.com/apollo-engine-binary-linux/-/apollo-engine-binary-linux-0.2018.1-54-gce490265c.tgz#abbf9b720b89da604edd76d13a88c471597d5481"
